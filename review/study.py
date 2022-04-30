@@ -1,4 +1,9 @@
-from datetime import datetime
+def func(*ls):
+    sum = 0
+    for i in ls:
+        sum += i
+    return ls, sum
 
-today = datetime.utcnow()
-print(today)
+ls = [1, 2, 3, 4, 5]
+retls, retsum = func(*ls[:4])
+print(retls, retsum)
