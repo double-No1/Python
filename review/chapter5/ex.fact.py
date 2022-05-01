@@ -5,3 +5,5 @@ def fact(n):
         return n * fact(n - 1)
 num = eval(input("请输入一个整数:"))
 print(fact(abs(int(num))))
+
+

@@ -8,3 +8,5 @@ for i in range(11):
         print('{0}{1}{0}{1}{0}'.format(a, b*4))
     else:
         print('{0}{1}{0}{1}{0}'.format(c, d*4))
+
+
