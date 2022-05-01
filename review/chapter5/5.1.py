@@ -1,8 +1,8 @@
 
 def drawsq(n):
-    line = 5 * n + 1
+    line = n * n + 1
     for i in range(1, line+1):
-        if i % 5 == 1:
+        if i % n == 1:
             print(n*"+----", end="")
             print("+")
         else:
