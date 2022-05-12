@@ -1,8 +1,8 @@
 def find(list):
     if len(list) != len(set(list)):
-        return False
-    else:
         return True
+    else:
+        return False
 list = []
 list = input("请输入一些元素:")
 while len(list) == 0:
